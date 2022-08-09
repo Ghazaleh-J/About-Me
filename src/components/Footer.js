@@ -11,10 +11,15 @@ export default function Footer() {
           link: "https://www.linkedin.com/in/ghazaleh-javadi/"
         },
         {
+          name: "fa-regular fa-envelope fa-2xl",
+          link: "mailto: ghazaleh.javadi@outlook.com" 
+        },
+        {
           name: "fa fa-stack-overflow fa-2xl",
           link: "https://stackoverflow.com/users/18340584/ghazaleh"
         }
       ]
+      
 
       return (
         <footer>
