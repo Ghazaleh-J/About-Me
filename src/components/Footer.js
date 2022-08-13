@@ -22,11 +22,13 @@ export default function Footer() {
       
 
       return (
-        <footer>
-         {icons.map(icon => (
-        <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
-      )
-        )}
+        <footer className="flex justify-center items-center w-full h-20  bg-pink-50">
+            <div>
+            {icons.map(icon => (
+              <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer" className="px-4"><i className={icon.name}></i></a>
+               )
+                )}
+            </div>
         </footer>
       )
     
