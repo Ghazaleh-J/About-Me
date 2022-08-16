@@ -10,27 +10,39 @@ export default function Project() {
     const projects = [
         {
             id: 1,
-            src: passwordGenerator
+            src: passwordGenerator,
+            demoLink:"https://ghazaleh-j.github.io/Homework-3/",
+            codeLink:"https://github.com/Ghazaleh-J/Homework-3"
         },
         {
             id: 2,
-            src: quizChallenge
+            src: quizChallenge,
+            demoLink:"https://ghazaleh-j.github.io/Homework-4/",
+            codeLink:"https://github.com/Ghazaleh-J/Homework-4"
         },
         {
             id: 3,
-            src: weatherDashboard 
+            src: weatherDashboard,
+            demoLink:"https://ghazaleh-j.github.io/Homework-6---Server-Side-APIs/",
+            codeLink:"https://github.com/Ghazaleh-J/Homework-6---Server-Side-APIs"
         },
         {
             id: 4,
-            src: noteTaker
+            src: noteTaker,
+            demoLink:"https://note-taker-gj.herokuapp.com/",
+            codeLink:"https://github.com/Ghazaleh-J/Note_Taker_Express-11"
         },
         {
             id: 5,
-            src: lostArk
+            src: lostArk,
+            demoLink:"https://fluffykyubey.github.io/Lost-Ark-Group-Finder/",
+            codeLink:"https://github.com/Ghazaleh-J/Lost-Ark-Group-Finder"
         },
         {
             id: 6,
-            src: dungeonCrawler
+            src: dungeonCrawler,
+            demoLink:"https://rpg-dungeon-crawler.herokuapp.com/",
+            codeLink:"https://github.com/Ghazaleh-J/RPG_Dungeon_Crawler"
         },
     ]
     return (
