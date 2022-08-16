@@ -34,7 +34,7 @@ export default function Project() {
         },
     ]
     return (
-        <div name="project" className="bg-gradient-to-b from-pink-200 to-pink-50 w-full text-gray md:h-screen">
+        <div name="project" className="bg-gradient-to-b  from-pink-50 to-white w-full text-gray md:h-screen">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                <div className="pb-8">
                 <p className="text4xl font-bold inline">Projects</p>

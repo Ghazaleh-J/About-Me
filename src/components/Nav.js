@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 
-export default function Nav() {
+export default function Nav({ currentPage, handlePageChange }) {
 
   const [navi, setNavi] = useState(false);
 
@@ -35,7 +35,7 @@ export default function Nav() {
             <li
             key={id}
             className="px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200"
-            >
+            onClick={() => handlePageChange(tab)}>
               {tab}
             </li>
           ))}
@@ -51,7 +51,8 @@ export default function Nav() {
            {tabs.map(({ id, tab }) => (
                <li
                key={id}
-               className="px-4 cursor-pointer py-6 text-4xl">
+               className="px-4 cursor-pointer py-6 text-4xl"
+               onClick={() => handlePageChange(tab)}>
                  {tab}
                </li>
            ))}
