@@ -10,9 +10,9 @@ export default function About() {
           <div className="flex flex-col justify-center h-full">
         <h1 className="text-4xl sm:text-4xl font-bold">Hi, I'm Ghazaleh 👋 </h1>
         <p className="py-4 max-w-md">
-            I'm from Irvine, California. I have a masters degree in law, 
-            but I always was passionate about the web development and now 
-            I'm a full stack web developer from UCI.
+            I'm from Irvine, California. I have a master's degree in law, 
+            but I always was passionate about web development and now 
+            I'm a certified full-stack web developer from UCI.
         </p>
           </div>
         </div>
