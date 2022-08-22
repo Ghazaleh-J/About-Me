@@ -1,9 +1,9 @@
-import passwordGenerator from "./assets/passwordGenerator.png";
-import quizChallenge from "./assets/quizChallenge.png";
-import weatherDashboard from "./assets/weatherDashboard.png";
-import noteTaker from "./assets/noteTaker.png";
-import lostArk from "./assets/lostArk.png";
-import dungeonCrawler from "./assets/dungeonCrawler.png";
+import passwordGenerator from "./assets/projects/passwordGenerator.png";
+import quizChallenge from "./assets/projects/quizChallenge.png";
+import weatherDashboard from "./assets/projects/weatherDashboard.png";
+import noteTaker from "./assets/projects/noteTaker.png";
+import lostArk from "./assets/projects/lostArk.png";
+import dungeonCrawler from "./assets/projects/dungeonCrawler.png";
 
 export default function Project() {
 
