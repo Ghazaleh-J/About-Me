@@ -40,45 +40,31 @@ export default function Contact() {
       };
     
       return (
-        <section>
-          <form id="contact-form" onSubmit={handleSubmit}>
-            <div>
-              <label htmlFor="name">Name:</label>
-              <input
-                type="text"
-                name="name"
-                defaultValue={name}
-                onBlur={handleChange}
-              />
+        <div name="contact" className="bg-gradient-to-b  from-pink-50 to-white w-full text-gray h-screen p-4">
+          <div className="flex flex-col p-4 justify-center max-w-screen-lg max-auto h-full">
+            <div className="pb-8">
+              <p className="text4xl font-bold inline">Contact</p>
+              <p className="py-6">In order to get in touch with me, please submit the form below:</p>
             </div>
-            <div>
-              <label htmlFor="email">Email address:</label>
-              <input
-                type="email"
-                name="email"
-                defaultValue={email}
-                onBlur={handleChange}
-              />
+            <div className="flex justify-center items-center">
+              <form className="flex flex-col w-full md:w-1/2" onSubmit={handleSubmit}>
+                <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
+                <input type="text" name="email" defaultValue={email} onBlur={handleChange} placeholder="Enter your email" className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
+                <textarea name="message" defaultValue={message} onBlur={handleChange} placeholder="Enter your message" rows="10" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></textarea>
+                 {errorMessage && (
+                  <div>
+                    <p className="error-text">{errorMessage}</p>
+                  </div>
+                 )}
+                <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300">Submit</button>
+              </form>
             </div>
-            <div>
-              <label htmlFor="message">Message:</label>
-              <textarea
-                name="message"
-                rows="5"
-                defaultValue={message}
-                onBlur={handleChange}
-              />
-            </div>
-            {errorMessage && (
-              <div>
-                <p className="error-text">{errorMessage}</p>
-              </div>
-            )}
-            <button type="submit">Submit</button>
-          </form>
-        </section>
+          </div>
+        </div>
       );
     }
     
+
+   
     
 
