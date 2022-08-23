@@ -47,7 +47,7 @@ export default function Contact() {
               <p className="py-6">In order to get in touch with me, please submit the form below:</p>
             </div>
             <div className="flex justify-center items-center">
-              <form className="flex flex-col w-full md:w-1/2" onSubmit={handleSubmit}>
+              <form action="https://getform.io/f/35b882b9-81ac-4166-b26e-0d8f439e8a5e" method="POST" className="flex flex-col w-full md:w-1/2">
                 <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
                 <input type="text" name="email" defaultValue={email} onBlur={handleChange} placeholder="Enter your email" className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
                 <textarea name="message" defaultValue={message} onBlur={handleChange} placeholder="Enter your message" rows="10" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></textarea>
@@ -56,7 +56,7 @@ export default function Contact() {
                     <p className="error-text">{errorMessage}</p>
                   </div>
                  )}
-                <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300">Submit</button>
+                <button className="text-white bg-gradient-to-b from-gray-500 to-zinc-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300" onSubmit={handleSubmit}>Submit</button>
               </form>
             </div>
           </div>
