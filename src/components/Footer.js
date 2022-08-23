@@ -1,6 +1,3 @@
-
-
-
 export default function Footer() {
     const icons = [
         {
@@ -21,7 +18,6 @@ export default function Footer() {
         }
       ]
       
-
       return (
         <footer className="flex justify-center items-center w-full h-20  bg-pink-50">
             <div>
@@ -32,5 +28,4 @@ export default function Footer() {
             </div>
         </footer>
       )
-    
 }

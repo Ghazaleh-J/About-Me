@@ -6,8 +6,6 @@ import Resume from './Resume';
 import Nav from './Nav'
 
 
-
-
 export default function Header(){
     const [currentPage, setCurrentPage] = useState('About Me');
     const renderPage = () => {
@@ -29,7 +27,5 @@ export default function Header(){
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
           {renderPage()}
         </header>
-
     );
-
 }

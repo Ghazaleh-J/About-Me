@@ -11,7 +11,6 @@ import reactImage from "./assets/logo/react.png";
 import tailwind from "./assets/logo/tailwind.png";
 
 
-
 export default function Resume() {
 
     const tools = [
@@ -91,8 +90,6 @@ export default function Resume() {
                 </div>
             </div>       
         </div>
-        
-     
     );
   }
   
