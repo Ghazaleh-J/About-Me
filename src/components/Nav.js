@@ -34,7 +34,7 @@ export default function Nav({ currentPage, handlePageChange }) {
           {tabs.map(({ id, tab, isActive }) => (
             <li
             key={id}
-            className={`${isActive && 'text-blue-500 font-bold'} px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200`}
+            className={`${isActive && 'text-blue-600 font-bold'} px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200`}
             onClick={() => handlePageChange(tab)}>
               {tab}
             </li>
