@@ -19,4 +19,4 @@ This is my portfolio using React.
 * By viewing the footer, you're presented with icon links to my GitHub, LinkedIn and Stack Overflow profiles and email
 
 ## Link
-[Deployed Page](pending)
+[Deployed Page](https://ghazaleh-j.github.io/React-Portfolio/)
