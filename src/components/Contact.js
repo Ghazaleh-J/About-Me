@@ -38,6 +38,8 @@ export default function Contact() {
           console.log('Handle Form', formState);
         }
       };
+
+      const isFormValid = !!(formState.email && formState.message && formState.name && validateEmail(formState.email))
     
       return (
         <div name="contact" className="bg-gradient-to-b  from-pink-50 to-white w-full text-gray h-screen p-4">
@@ -56,7 +58,7 @@ export default function Contact() {
                     <p className="error-text">{errorMessage}</p>
                   </div>
                  )}
-                <button className="text-white bg-gradient-to-b from-gray-500 to-zinc-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300" onSubmit={handleSubmit}>Submit</button>
+                <button disabled={!isFormValid} className="text-white bg-gradient-to-b from-gray-500 to-zinc-500 px-6 py-3 my-8 mx-auto flex item-center rounded-md hover:scale-110 duration-300" onSubmit={handleSubmit}>Submit</button>
               </form>
             </div>
           </div>

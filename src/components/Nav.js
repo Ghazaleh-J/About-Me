@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 
 export default function Nav({ currentPage, handlePageChange }) {
-
+  console.log("THIS IS THE CURENT PAGE", currentPage)
   const [navi, setNavi] = useState(false);
 
   const tabs = [
@@ -23,7 +23,7 @@ export default function Nav({ currentPage, handlePageChange }) {
       id: 4,
       tab: "Resume",
     },
-  ];
+  ].map(item => ({...item, isActive: currentPage === item.tab}));
 
     return (
       <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-pink-50 fixed">
@@ -31,10 +31,10 @@ export default function Nav({ currentPage, handlePageChange }) {
           <h1 className="text-4xl font-signature ml-2 text-black"> GJ </h1>
         </div>
         <ul className="hidden md:flex">
-          {tabs.map(({ id, tab }) => (
+          {tabs.map(({ id, tab, isActive }) => (
             <li
             key={id}
-            className="px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200"
+            className={`${isActive && 'text-blue-500 font-bold'} px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200`}
             onClick={() => handlePageChange(tab)}>
               {tab}
             </li>
