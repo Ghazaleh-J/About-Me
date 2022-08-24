@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.440e9ccc.css",
+    "main.js": "/React-Portfolio/static/js/main.b09fc19e.js",
+    "static/media/dungeonCrawler.png": "/React-Portfolio/static/media/dungeonCrawler.85a3d92f3f54dcc86c40.png",
+    "static/media/lostArk.png": "/React-Portfolio/static/media/lostArk.3728c4735b9c188066b5.png",
+    "static/media/graphql.png": "/React-Portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
+    "static/media/myAvatar.jpg": "/React-Portfolio/static/media/myAvatar.6f32aec43e973e8c5cd4.jpg",
+    "static/media/weatherDashboard.png": "/React-Portfolio/static/media/weatherDashboard.65a5e4125b6405940e50.png",
+    "static/media/react.png": "/React-Portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/bootstrap.png": "/React-Portfolio/static/media/bootstrap.3c4e1a5d3a149087b144.png",
+    "static/media/node.png": "/React-Portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/passwordGenerator.png": "/React-Portfolio/static/media/passwordGenerator.c9efd1e952bbec5ae858.png",
+    "static/media/noteTaker.png": "/React-Portfolio/static/media/noteTaker.5c6cdd79533a01069154.png",
+    "static/media/quizChallenge.png": "/React-Portfolio/static/media/quizChallenge.7a329c491dafdabc0446.png",
+    "static/media/mongodb.png": "/React-Portfolio/static/media/mongodb.7a16fc61d457c9e340e2.png",
+    "static/media/html.png": "/React-Portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/React-Portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/React-Portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mysql.png": "/React-Portfolio/static/media/mysql.ed4d0eff39bc49aa86c8.png",
+    "static/media/javascript.png": "/React-Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/React-Portfolio/index.html",
+    "main.440e9ccc.css.map": "/React-Portfolio/static/css/main.440e9ccc.css.map",
+    "main.b09fc19e.js.map": "/React-Portfolio/static/js/main.b09fc19e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.440e9ccc.css",
+    "static/js/main.b09fc19e.js"
+  ]
+}
