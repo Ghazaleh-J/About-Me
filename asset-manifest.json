@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.440e9ccc.css",
-    "main.js": "/React-Portfolio/static/js/main.b09fc19e.js",
+    "main.css": "/React-Portfolio/static/css/main.f47e314c.css",
+    "main.js": "/React-Portfolio/static/js/main.05f44f23.js",
     "static/media/dungeonCrawler.png": "/React-Portfolio/static/media/dungeonCrawler.85a3d92f3f54dcc86c40.png",
     "static/media/lostArk.png": "/React-Portfolio/static/media/lostArk.3728c4735b9c188066b5.png",
     "static/media/graphql.png": "/React-Portfolio/static/media/graphql.fc6b9451733c620ceb86.png",
@@ -20,11 +20,11 @@
     "static/media/mysql.png": "/React-Portfolio/static/media/mysql.ed4d0eff39bc49aa86c8.png",
     "static/media/javascript.png": "/React-Portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.440e9ccc.css.map": "/React-Portfolio/static/css/main.440e9ccc.css.map",
-    "main.b09fc19e.js.map": "/React-Portfolio/static/js/main.b09fc19e.js.map"
+    "main.f47e314c.css.map": "/React-Portfolio/static/css/main.f47e314c.css.map",
+    "main.05f44f23.js.map": "/React-Portfolio/static/js/main.05f44f23.js.map"
   },
   "entrypoints": [
-    "static/css/main.440e9ccc.css",
-    "static/js/main.b09fc19e.js"
+    "static/css/main.f47e314c.css",
+    "static/js/main.05f44f23.js"
   ]
 }
