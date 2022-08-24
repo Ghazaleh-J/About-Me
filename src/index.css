@@ -11,3 +11,8 @@
     font-family: 'Roboto Slab', serif;
   }
 }
+
+button:disabled {
+  background-image: none;
+  background-color: #393e46!important;
+}

@@ -50,9 +50,9 @@ export default function Contact() {
             </div>
             <div className="flex justify-center items-center">
               <form action="https://getform.io/f/35b882b9-81ac-4166-b26e-0d8f439e8a5e" method="POST" className="flex flex-col w-full md:w-1/2">
-                <input type="text" name="name" defaultValue={name} onBlur={handleChange} placeholder="Enter your name" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
-                <input type="text" name="email" defaultValue={email} onBlur={handleChange} placeholder="Enter your email" className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} placeholder="Enter your message" rows="10" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></textarea>
+                <input type="text" name="name" defaultValue={name} onChange={handleChange} placeholder="Enter your name" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
+                <input type="text" name="email" defaultValue={email} onChange={handleChange} placeholder="Enter your email" className="my-4 p-2 bg-transparent border-2 rounded-md focus:outline-none"></input>
+                <textarea name="message" defaultValue={message} onChange={handleChange} placeholder="Enter your message" rows="10" className="p-2 bg-transparent border-2 rounded-md focus:outline-none"></textarea>
                  {errorMessage && (
                   <div>
                     <p className="error-text">{errorMessage}</p>
