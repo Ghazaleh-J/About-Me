@@ -20,3 +20,9 @@ This is my portfolio using React.
 
 ## Link
 [Deployed Page](https://ghazaleh-j.github.io/React-Portfolio/)
+
+## Site Preview
+![alt text](./src/components/assets/screenshots/1.png)
+![alt text](./src/components/assets/screenshots/2.png)
+![alt text](./src/components/assets/screenshots/3.png)
+![alt text](./src/components/assets/screenshots/4.png)
