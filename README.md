@@ -18,10 +18,15 @@ This is my portfolio using React.
 * When you're presented with the Resume section, you see a link to a downloadable resume and a list of my proficiencies
 * By viewing the footer, you're presented with icon links to my GitHub, LinkedIn and Stack Overflow profiles and email
 
+## Technologies
+* React
+* Tailwind
+* Font Awesome
+
 ## Link
 [Deployed Page](https://ghazaleh-j.github.io/React-Portfolio/)
 
-## Site Preview
+## Application Preview
 ![alt text](./src/components/assets/screenshots/1.png)
 ![alt text](./src/components/assets/screenshots/2.png)
 ![alt text](./src/components/assets/screenshots/3.png)
