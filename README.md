@@ -24,7 +24,7 @@ This is my portfolio using React.
 * Font Awesome
 
 ## Link
-[Deployed Page](https://ghazaleh-j.github.io/React-Portfolio/)
+[Deployed Page](https://ghazaleh-j.github.io/About-Me/)
 
 ## Application Preview
 ![alt text](./src/components/assets/screenshots/1.png)
