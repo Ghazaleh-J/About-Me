@@ -75,7 +75,7 @@ export default function Resume() {
             <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
                 <div>
                     <p className="text4xl font-bold p-2 inline">Experience</p>
-                    <p className="py-4">These are the technologies I've worked with. You can also find my resume <a href="./Ghazaleh_Javadi_Resume.PDF" target="_blank">here.</a></p>
+                    <p className="py-4">These are the technologies I've worked with. You can also find my resume <a href="https://docs.google.com/document/d/1IrkchVlzSmhKQRrkUsIFmzFHhgGeNiA-hURXgipm6KQ/edit#" target="_blank" rel="noreferrer" className='text-pink-500 font-bold'>here.</a></p>
                 </div>
                 <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                     {

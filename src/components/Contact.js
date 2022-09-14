@@ -46,7 +46,7 @@ export default function Contact() {
           <div className="flex flex-col p-4 justify-center max-w-screen-lg max-auto h-full">
             <div className="pb-8">
               <p className="text4xl font-bold inline">Contact</p>
-              <p className="py-6">In order to get in touch with me, please submit the form below:</p>
+              <p className="py-6">In order to get in touch with me, please send me an email to<a href='mailto:ghazaleh.javadi@outlook.com' className='text-pink-500 font-bold'> ghazaleh.javadi@outlook.com </a> or submit the form below:</p>
             </div>
             <div className="flex justify-center items-center">
               <form action="https://getform.io/f/35b882b9-81ac-4166-b26e-0d8f439e8a5e" method="POST" className="flex flex-col w-full md:w-1/2">

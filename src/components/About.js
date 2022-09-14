@@ -10,9 +10,7 @@ export default function About() {
           <div className="flex flex-col justify-center h-full">
         <h1 className="text-4xl sm:text-4xl font-bold">Hi, I'm Ghazaleh 👋 </h1>
         <p className="py-4 max-w-md">
-            I'm from Irvine, California. I have a master's degree in law, 
-            but I always was passionate about web development and now 
-            I'm a certified full-stack web developer from UCI.
+        Proactive, responsible, and extremely dedicated web developer with a Web Development Certificate from UCI. I’m always looking to develop new skills & explore new experiences. That’s why I took the opportunity to switch to tech major which was always my personal interest & from the moment I console.logged ‘Hello World’, I knew I was hooked.
         </p>
           </div>
         </div>
