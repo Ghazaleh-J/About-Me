@@ -1,9 +1,7 @@
 {
   "files": {
-    "main.css": "/About-Me/static/css/main.af880c80.css",
-    "main.js": "/About-Me/static/js/main.038083bc.js",
-    "static/media/dungeonCrawler.png": "/About-Me/static/media/dungeonCrawler.85a3d92f3f54dcc86c40.png",
-    "static/media/lostArk.png": "/About-Me/static/media/lostArk.3728c4735b9c188066b5.png",
+    "main.css": "/About-Me/static/css/main.dc9dc303.css",
+    "main.js": "/About-Me/static/js/main.bec84a1e.js",
     "static/media/graphql.png": "/About-Me/static/media/graphql.fc6b9451733c620ceb86.png",
     "static/media/myAvatar.jpg": "/About-Me/static/media/myAvatar.6f32aec43e973e8c5cd4.jpg",
     "static/media/weatherDashboard.png": "/About-Me/static/media/weatherDashboard.65a5e4125b6405940e50.png",
@@ -12,6 +10,7 @@
     "static/media/node.png": "/About-Me/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/passwordGenerator.png": "/About-Me/static/media/passwordGenerator.c9efd1e952bbec5ae858.png",
     "static/media/noteTaker.png": "/About-Me/static/media/noteTaker.5c6cdd79533a01069154.png",
+    "static/media/tech-blog.png": "/About-Me/static/media/tech-blog.8a6ab61974d6b1898831.png",
     "static/media/quizChallenge.png": "/About-Me/static/media/quizChallenge.7a329c491dafdabc0446.png",
     "static/media/mongodb.png": "/About-Me/static/media/mongodb.7a16fc61d457c9e340e2.png",
     "static/media/html.png": "/About-Me/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -20,11 +19,11 @@
     "static/media/mysql.png": "/About-Me/static/media/mysql.ed4d0eff39bc49aa86c8.png",
     "static/media/javascript.png": "/About-Me/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/About-Me/index.html",
-    "main.af880c80.css.map": "/About-Me/static/css/main.af880c80.css.map",
-    "main.038083bc.js.map": "/About-Me/static/js/main.038083bc.js.map"
+    "main.dc9dc303.css.map": "/About-Me/static/css/main.dc9dc303.css.map",
+    "main.bec84a1e.js.map": "/About-Me/static/js/main.bec84a1e.js.map"
   },
   "entrypoints": [
-    "static/css/main.af880c80.css",
-    "static/js/main.038083bc.js"
+    "static/css/main.dc9dc303.css",
+    "static/js/main.bec84a1e.js"
   ]
 }
